@@ -56,7 +56,7 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
 // </nav>
 
 <nav className={`navbar navbar-expand-lg bg-body-tertiary p-0 ${darkMode?'bg-black navbar-dark':'navbar-light'}`}>
-  <div className="container-fluid">
+  <div className="container-fluid p-0">
     <a className="navbar-brand" href="#">
     <img src={darkMode?logoDark:logolight} alt="" />
     </a>

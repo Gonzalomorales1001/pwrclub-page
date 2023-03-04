@@ -1,0 +1,14 @@
+
+.pwr-section{
+    height: 50vh;
+    background-image: url("../src/assets/Snapseed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pwr-section__info{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px);
+}
