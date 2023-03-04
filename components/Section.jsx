@@ -1,9 +1,11 @@
 import React from 'react'
 import '../css/Section.css'
 
+//images
+
 const Section = ({textEnd,textDark,background}) => {
   return (
-    <section className='p-2 pwr-section text-light'>
+    <section className={`p-2 pwr-section text-light pwr-section-bg-${background}`}>
         <div className="container h-100">
             <div className="row h-100 align-items-center">
                 <div className={`pwr-section__info p-4 col-12 col-md-8 ${textEnd?'offset-md-4 offset-lg-6 text-md-end':'text-md-start'} col-lg-6 text-center`}>

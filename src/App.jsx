@@ -3,8 +3,6 @@ import Navbar from '../components/Navbar'
 import Section from '../components/Section'
 import './App.css'
 
-import venyto1 from './assets/Snapseed.jpg'
-
 function App() {
   const [darkMode, setDarkMode] = useState(true)
 
@@ -15,7 +13,7 @@ function App() {
   return (
 <>
 <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-<Section textEnd={true} background={venyto1}/>
+<Section textEnd={true} background={"venyto1"}/>
 <Section textEnd={false}/>
 <Section textEnd={true}/>
 <Section textEnd={false}/>
