@@ -1,0 +1,35 @@
+.nav-link{
+    width: 100%;
+}
+
+.nav-link--dark:hover{
+    transition: 0.4s;
+    background-color: #fff;
+    color: #000 !important
+}
+
+.nav-link--light:hover{
+    transition: 0.4s;
+    background-color: #000;
+    color: #fff !important
+}
+
+.navbar-brand{
+    width: 87px;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.light{
+    cursor: pointer;
+    color: #555;
+}
+
+/*media lg breakpoint*/
+@media (min-width:992px) {
+    .nav-link{
+        width: 150px;
+    }
+}
