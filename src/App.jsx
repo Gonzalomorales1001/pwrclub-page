@@ -14,10 +14,10 @@ function App() {
 <>
 <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
 <Section textEnd={true} background={"venyto1"}/>
-<Section textEnd={false}/>
-<Section textEnd={true}/>
-<Section textEnd={false}/>
-<Section textEnd={true}/>
+<Section textEnd={false} background={"negra1"}/>
+<Section textEnd={true} background={"negradl2"}/>
+<Section textEnd={false} background={"venyto2"}/>
+<Section textEnd={true} background={"goncho1"}/>
 </>
   )
 }

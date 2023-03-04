@@ -1,5 +1,5 @@
 .pwr-section{
-    height: 50vh;
+    height: 65vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,4 +11,16 @@
     backdrop-filter: blur(7px);
 }
 
-.pwr-section-bg-venyto1{background-image: url("../src/assets/Snapseed.jpg");}
+.pwr-section-bg-venyto1{background-image: url("https://i.imgur.com/f94DAi6.jpeg");}
+.pwr-section-bg-venyto2{background-image: url("https://i.imgur.com/MJ2Atwp.jpeg");}
+.pwr-section-bg-venytobp1{background-image: url("https://i.imgur.com/bVcs8Gt.jpeg");}
+.pwr-section-bg-negra1{background-image: url("https://i.imgur.com/5Lw7kg3.jpeg");}
+.pwr-section-bg-negrasq1{background-image: url("https://i.imgur.com/6hLyPlW.jpeg");}
+.pwr-section-bg-negrasq2{background-image: url("https://i.imgur.com/fsUuakK.jpeg");}
+.pwr-section-bg-negradl1{background-image: url("https://i.imgur.com/UmTM02e.jpeg");}
+.pwr-section-bg-negradl2{background-image: url("https://i.imgur.com/ypBIYbR.jpeg");}
+.pwr-section-bg-goncho1{background-image: url("https://i.imgur.com/feAa4Qi.jpeg");}
+.pwr-section-bg-gonchosq1{background-image: url("https://i.imgur.com/jmktf4m.jpeg");}
+.pwr-section-bg-gonchobp1{background-image: url("https://i.imgur.com/Pqr2gst.jpeg");}
+.pwr-section-bg-gonchobp2{background-image: url("https://i.imgur.com/89jc9i7.jpeg");}
+.pwr-section-bg-gonchodl1{background-image: url("https://i.imgur.com/STUH3FZ.jpeg");}
