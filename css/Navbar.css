@@ -23,11 +23,6 @@
     width: 100%;
 }
 
-.light{
-    cursor: pointer;
-    color: #555;
-}
-
 /*media lg breakpoint*/
 @media (min-width:992px) {
     .nav-link{

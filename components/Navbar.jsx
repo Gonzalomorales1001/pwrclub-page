@@ -57,11 +57,14 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
 
 <nav className={`navbar navbar-expand-lg bg-body-tertiary p-0 ${darkMode?'bg-black navbar-dark':'navbar-light'}`}>
   <div className="container-fluid p-0">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand mx-auto" href="#">
     <img src={darkMode?logoDark:logolight} alt="" />
     </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+  </div>
+  //     <i className="fa fa-lightbulb-o light" onClick={toggleDarkMode} aria-hidden="true"></i>
+    <button className="navbar-toggler flex-grow-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      {/* <span className="navbar-toggler-icon d-inline-block"></span> */}
+      <h3><i className="fa fa-arrow-down" aria-hidden="true"></i> MENU</h3>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav ms-auto">
@@ -72,7 +75,6 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
       <a className={`text-center py-4 nav-link ${darkMode?'nav-link--dark':'nav-link--light'}`} href="#">Sobre Nosotros</a>
     </div>
     </div>
-  </div>
 </nav>
   )
 }
