@@ -11,6 +11,14 @@
     backdrop-filter: blur(7px);
 }
 
+.pwr-section__title{
+    font-weight: 600;
+}
+
+.pwr-section__text{
+    font-weight: 300;
+}
+
 .pwr-section-bg-venyto1{background-image: url("https://i.postimg.cc/VvNGhxGs/Snapseed.jpg");}
 .pwr-section-bg-venyto2{background-image: url("https://i.postimg.cc/BZhwFvbj/venyto2.jpg");}
 .pwr-section-bg-venytobp1{background-image: url("https://i.postimg.cc/JzXTScqX/venytobp1.jpg");}

@@ -1,5 +1,6 @@
 .nav-link{
     width: 100%;
+    font-weight: 500;
 }
 
 .nav-link--dark:hover{
