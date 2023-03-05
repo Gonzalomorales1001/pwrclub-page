@@ -1,21 +1,16 @@
 .pwr-section{
-    height: 65vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    filter: grayscale(80%);
+    /* filter: grayscale(80%); */
 }
 
 .pwr-section__info{
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #000;
-    backdrop-filter: blur(7px);
-}
-
-.pwr-section__info--dark{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #FFF;
+    backdrop-filter: blur(7px);
 }
 
 .pwr-section__title{

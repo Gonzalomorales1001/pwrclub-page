@@ -9,12 +9,6 @@
     color: #000 !important
 }
 
-.nav-link--light:hover{
-    transition: 0.4s;
-    background-color: #000;
-    color: #fff !important
-}
-
 .navbar-brand{
     width: 87px;
 }
