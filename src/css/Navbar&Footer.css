@@ -17,9 +17,27 @@
     width: 100%;
 }
 
+.navbar-toggler{
+    padding: 0px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.menu-arrow{
+    transform: rotate(90deg);
+    color: var(--bs-navbar-color)
+}
+
+.pwr-footer{
+    background-color: rgb(25, 25, 25);
+    color: #CCC;
+}
+
 /*media lg breakpoint*/
 @media (min-width:992px) {
     .nav-link{
-        width: 150px;
+        width: 200px;
     }
 }

@@ -5,10 +5,10 @@ import {entrenadores,nutricionistas} from '../data/members.js'
 const AsesoriasScreen = () => {
 
   return (
-    <section className='bg-black text-white'>
+    <section className='bg-asesorias text-light'>
         <h1 className='text-center'>Asesorías</h1>
 
-        <h3 className='ms-5'>Asesorías Deportivas</h3>
+        <h3 className='text-center ms-md-5 text-md-start'>Asesorías Deportivas</h3>
         <hr />
         <div className="container">
             <div className="row">
@@ -22,7 +22,7 @@ const AsesoriasScreen = () => {
             </div>
         </div>
         <br />
-        <h3 className='ms-5'>Asesorías Nutricionales</h3>
+        <h3 className='text-center ms-md-5 text-md-start'>Asesorías Nutricionales</h3>
         <hr />
         <div className="container">
             <div className="row">

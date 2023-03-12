@@ -1,0 +1,81 @@
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 916px;
+    width: calc(100% - 20px);
+    margin: auto;
+}
+
+/* .card--calc{
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+} */
+
+.card--calc{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 250px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card--calc::before,
+.card--calc > .card--calc__border{
+    border-radius: inherit;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    opacity: 0;
+    transition: 100ms;
+}
+
+.card--calc::before{
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.15), transparent 40%);
+    z-index: 3;  
+}
+
+.card--calc > .card--calc__border{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.3), transparent 40%);
+    z-index: 1;  
+}
+
+.card--calc:hover::before,
+.card--calc:hover > .card--calc__border{
+    opacity: 1;
+}
+
+.card--calc > .card--calc__content{
+    background-color: rgb(23, 23, 23);
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: inherit;
+    margin: 1px;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    display: flex;
+    align-items: end;
+}
+
+.card--calc__img{
+    filter: invert(50%);
+}
+
+@media (max-width:637px) {
+    .card--calc{
+        width: 100%;
+    }
+}

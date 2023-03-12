@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Navbar.css'
+import '../css/Navbar&Footer.css'
 import { NavLink } from 'react-router-dom'
 import logoDark from '../assets/logo-dark.png'
 import logolight from '../assets/logo-light.png'
@@ -15,7 +15,7 @@ const Navbar = () => {
   </div>
     <button className="navbar-toggler flex-grow-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       {/* <span className="navbar-toggler-icon d-inline-block"></span> */}
-      <h3><i className="fa fa-arrow-down" aria-hidden="true"></i> MENU</h3>
+      <h3><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14" className='menu-arrow me-2' ><path fill="none" stroke="#FFF" strokeWidth="3" d="M2 1l6 6-6 6"/></svg>MENU</h3>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav ms-auto">
