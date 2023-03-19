@@ -74,6 +74,42 @@
     filter: invert(50%);
 }
 
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.rounded-3px{
+    border-radius: 3px !important;
+}
+
+.bg-white-transparency{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.wilks__inputs{
+    color: white !important;
+    background-color: black !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.wilks{font-size: 100px;}
+.dots{font-size: 50px;}
+
+.form-check{
+    filter: grayscale(100%);
+}
+
 @media (max-width:637px) {
     .card--calc{
         width: 100%;

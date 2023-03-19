@@ -18,7 +18,7 @@ const HomeScreen = ({darkMode}) => {
     </section>
 
     <Section title={"Asesorías"} text={"aaaaaaaaaaaaaaaaaaaaaaa  2aaaaaa aaaaa aaaaa aaaaaaaaaaaaaaaaaaa"} textEnd={false} background={"negrasq2"}/>
-    <Section title={"Nuestro Catálogo"} text={"aaaaaaaaaaaaaaaa  2aaaaaa aaaaa aaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa"} textEnd={true} background={"negradl2"}/>
+    <Section title={"Nuestro Catálogo"} text={"aaaaaaaaaaaaaaaa  2aaaaaa aaaaa aaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa"} textEnd={true} background={"venytobp1"}/>
     <Section title={"Calculadoras"} text={"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa   jjj  jk aaaaaaaaaaaaaa"} textEnd={false} background={"gonchobp1"}/>
     <Section title={"Conocenos"} text={"a  2aaaaaa aaaaa aaaaa a  2aaaaaa aaaaa aaaaa aaaaaaaaaaaaaaaaaa"} textEnd={true} background={"venyto2"}/>
     </div>

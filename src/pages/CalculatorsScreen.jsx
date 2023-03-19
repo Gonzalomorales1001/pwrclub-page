@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Calc from '../components/Calc'
 import '../css/Calculators.css'
 //importing calculator images
@@ -8,8 +8,10 @@ import RPE_img from '../assets/img/calculators/RPE.png'
 import Percentage_img from '../assets/img/calculators/percentage.png'
 import Attempts_img from '../assets/img/calculators/attempts.png'
 import Plates_img from '../assets/img/calculators/plates.png'
+import Wilks from '../components/Calculators/Wilks'
 
 const CalculatorsScreen = () => {
+  const [Calculator, setCalculator] = useState(null)
 
     const handleOnMouseMove=(e)=>{
         const {currentTarget:target}=e
@@ -21,7 +23,12 @@ const CalculatorsScreen = () => {
         target.style.setProperty("--mouse-y", `${y}px`)
     }
 
+    const selectCalculator=()=>{
+      
+    }
+
   return (
+    <>
     <section className="bg-black text-light py-4">
         <div className="cards">
         <Calc title="Wilks" description="Calcula tu fuerza relativa con el coeficiente de puntos Wilks" img={Wilks_img} handleOnMouseMove={handleOnMouseMove}/>
@@ -32,6 +39,8 @@ const CalculatorsScreen = () => {
         <Calc title="Discos" description="Calcula rápidamente cuantos discos tienes que cargar en la barra" img={Plates_img} handleOnMouseMove={handleOnMouseMove}/>
         </div>
     </section>
+    <Wilks/>
+    </>
   )
 }
 
